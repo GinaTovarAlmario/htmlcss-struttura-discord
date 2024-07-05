@@ -11,7 +11,11 @@ body{
 }
 /*Utils*/
 .container{
-    max-width: 500px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.slideshow{
+    max-width:500px ;
     margin: 0 auto;
 }
 
@@ -20,8 +24,8 @@ header{
     padding: 10px 0;
 }
 
-main section{
-    padding: 10px 0;
+main section, main .slideshow-section{
+    padding: 20px 0;
 }
 
 footer{
@@ -32,6 +36,9 @@ footer{
 
 .border-2{
     border: 2px dashed black;
+}
+.border-2-white{
+    border: 2px dashed white;
 }
 main section:nth-of-type(odd){
     background-color: white;
@@ -108,7 +115,15 @@ main section:nth-of-type(even){
 }
 .bg-color-lightaqua{
     background-color: #7fffd4;                           
-
+}
+.bg-color-darkblue{
+    background-color: #00008b;
+}
+.bg-color-lavander{
+    background-color: #ee82ee;
+}
+.bg-color-black{
+    background-color: black;
 }
 .space-between{
     justify-content: space-between;
