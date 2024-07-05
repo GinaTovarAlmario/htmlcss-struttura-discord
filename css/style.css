@@ -11,6 +11,121 @@ body{
 }
 /*Utils*/
 .container{
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
+    background-color: purple;
+}
+
+header{
+    background-color: cyan;
+    padding: 10px 0;
+}
+
+main section{
+    padding: 10px 0;
+
+}
+
+footer{
+    min-height: 100px;
+    background-color: black;
+}
+
+.border-2{
+    border: 2px dashed black;
+}
+main section:nth-of-type(odd){
+    background-color: white;
+}
+main section:nth-of-type(even){
+    background-color: gray;
+}
+
+/*Utilities*/
+.flex-container{
+    display: flex;
+}
+
+.menu-container{
+    min-height: 40px;
+    background-color: goldenrod;
+}
+.flex-60{
+    flex-basis: 60%;
+ }
+
+.flex-20{
+    flex-basis: 20%;
+ }
+.flex-33{
+    flex-basis: 33.33%;
+}
+
+.flex-66{
+    flex-basis: 66.66%;;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.p-10{
+    padding: 10px;
+}
+.min-height-300{
+    min-height: 300px;
+}
+
+.bg-color-pink{
+    background-color: pink;
+}
+
+.bg-color-blue{
+    background-color: lightblue;
+
+}
+/*columns*/
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-column{
+    min-height: 100px;
+    background-color: blue;
+
+}
+
+.second-column{
+    min-height: 100px;
+    background-color: white;
+
+}
+
+.third-column{
+    min-height: 100px;
+    background-color: gray;
+
+}
+
+.fourth-column{
+    min-height: 100px;
+    background-color: white;
+
+}
+
+.fith-column{
+    min-height: 250px;
+    background-color: gray;
+}
+
+.last-column{
+    min-height: 100px;
+    background-color: black;
+
 }
